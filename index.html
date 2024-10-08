@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eniola Counter and calculator website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p  id="wel-come" onclick="sayHello()"></p>
+    <div class="container">
+    <h1>Count Value</h1>
+    <h2 id="count-er">0</h2>
+    <div class="btn">
+    <div>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    </div>
+    <div>
+        <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+    </div>
+    <div>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    </div>
+    </div>
+    <p id="save-el">Previous entries: </p>
+    </div>
+    <div>
+        <div class="span">
+            <p id="number-1"></p>
+            <p id="number-2"></p>
+        </div>
+        <div>
+            <button class="cal" onclick="add()">Add</button>
+            <button class="cal">Substract</button>
+            <button class="cal">Divide</button>
+            <button class="cal">Multiply</button>
+
+        </div>
+        <div>
+            <p id="sum-el" class=".span">Sum: </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
